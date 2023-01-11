@@ -15,7 +15,7 @@
     <li>You may be BLACKLISTED if you do not follow these terms!</li>
 </ul>
 
-<a href="/form">
+<a href="/contact">
 
     <button type="button"> I AGREE TO THE TERMS OF SERVICE </button>
 </a>

@@ -12,6 +12,8 @@ class OrderController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+
     public function index()
     {
         $orders = Order::latest()->paginate(8);
@@ -47,9 +49,16 @@ class OrderController extends Controller
 
         Order::create($request->all());
 
-        return redirect()->route('orders.index')
+
+        //$order = Order::create($request->all());
+        //$id = $order->id;
+        //return redirect()-> route ('orders.show', $id) ->with(...);
+
+        return redirect()->away('/thankyou')
 
             ->with('success', 'Order created successfully.');
+
+       
     }
 
     /**

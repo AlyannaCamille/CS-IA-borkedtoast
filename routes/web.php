@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\OrderController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\StatusController;
+use App\Http\Controllers\ContactController;
+
 
 
 
@@ -16,9 +20,15 @@ use App\Http\Controllers\OrderController;
 |
 */
 
-  
+
 
 Route::resource('orders', OrderController::class);
+Route::resource('users', UserController::class);
+Route::resource('statuses', StatusController::class);
+Route::resource('contacts', ContactController::class);
+
+
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -28,7 +38,7 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
 
 Route::get('/terms', function () {
     return view('terms');
@@ -50,5 +60,36 @@ Route::get('/newform', function () {
     return view('newform');
 });
 
+Route::get('/indexorders', function () {
+    return view('indexorders');
+});
 
+Route::get('/blank', function () {
+    return view('blank');
+});
+
+Route::get('/new', function () {
+    return view('new');
+});
+
+Route::get('/orders/show', function () {
+    return view('show');
+});
+
+Route::get('/userform', function () {
+    return view('userform');
+});
+
+Route::get('/main', function () {
+    return view('main');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+
+Route::get('/thankyou', function () {
+    return view('thankyou');
+});
 
