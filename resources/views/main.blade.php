@@ -46,7 +46,7 @@
     }
 </style>
 
-<body background = "/samples/field.PNG">
+<body background="/samples/field.PNG">
 
 
     <div class="topnav">
@@ -92,39 +92,41 @@
     </style>
 
 
+
     <body>
 
         <div class="gallery">
-            <a target="_blank" href="/samples/1.PNG">
-                <img src="/samples/1.PNG" alt="1" width="600" height="400">
+            <a target="_blank" href="/uploads/one.PNG">
+                <img src="/uploads/one.PNG" alt="one" width="600" height="400">
             </a>
             <div class="desc">Add a description of the image here</div>
         </div>
 
         <div class="gallery">
-            <a target="_blank" href="/samples/2.PNG">
-                <img src="/samples/2.PNG" alt="2" width="600" height="400">
+            <a target="_blank" href="/uploads/two.PNG">
+                <img src="/uploads/two.PNG" alt="two" width="600" height="400">
             </a>
             <div class="desc">Add a description of the image here</div>
         </div>
 
         <div class="gallery">
-            <a target="_blank" href="/samples/3.PNG">
-                <img src="/samples/3.PNG" alt="3" width="600" height="400">
+            <a target="_blank" href="/uploads/three.PNG">
+                <img src="/uploads/three.PNG" alt="three" width="600" height="400">
             </a>
             <div class="desc">Add a description of the image here</div>
         </div>
 
         <div class="gallery">
-            <a target="_blank" href="/samples/4.PNG">
-                <img src="/samples/4.PNG" alt="4" width="600" height="400">
+            <a target="_blank" href="/uploads/four.PNG">
+                <img src="/uploads/four.PNG" alt="four" width="600" height="400">
             </a>
             <div class="desc">Add a description of the image here</div>
         </div>
 
     </body>
-    </div>
 
+    
+    
     <br>
 
 

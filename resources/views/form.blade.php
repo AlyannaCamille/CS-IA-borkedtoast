@@ -11,7 +11,7 @@
 
     <h1>Order Form</h1>
 
-    <form action="{{ route('orders.store') }}" method="POST">
+    <form action="{{ route('orders.store') }}" method="POST" enctype = "multipart/form-data">
 
         @csrf
 

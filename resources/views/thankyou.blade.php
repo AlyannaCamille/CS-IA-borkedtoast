@@ -10,8 +10,10 @@
     }
 </style>
 
+<body background="/samples/thanks.png">
+
 <a target="_blank" href="/samples/cart.PNG">
-    <img src="/samples/cart.PNG" alt="cart" class="center" width="500" height="500">
+    <img src="/samples/cart.PNG" alt="cart" class="center" width="200px" height="300px">
 </a>
 
 <h1>
@@ -20,6 +22,8 @@
 </h1>
 <br>
 You will be redirected to the main page.
+
+</body>
 
 <meta http-equiv="refresh" content="3;url= /main">
 
